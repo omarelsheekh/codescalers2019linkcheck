@@ -44,14 +44,6 @@ def getListOfFiles(dirName):
 
 if __name__ == '__main__':
     regex = r"href=[\'\"]?([^\'\" >]+)"
-    # test_str = ("<!DOCTYPE html>\n"
-    #             "<html>\n"
-    #             "<body>\n\n"
-    #             "<h2>HTML Links</h2>\n"
-    #             "<p><a href=\"https://www.w3schools.com/html233/\">Visit our HTML tutorial</a></p>\n"
-    #             "<a href=\"https://www.w3schools.com/html/\">Visit our HTML tutorial</a>\n\n"
-    #             "</body>\n"
-    #             "</html>")
     table.setTitles(["link", "req code", "statue"])
     directory="codescalers.com"
     for d in getListOfFiles(directory):
